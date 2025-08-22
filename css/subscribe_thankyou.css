@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* root */
+
+section {
+  padding: 5%;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #02182b;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: #02182b;
+  text-align: justify;
+}
+
+span {
+  color: #d7263d;
+  font-weight: 300;
+}
+
+.logoicon {
+  font-size: 25px;
+  vertical-align: -1.5px;
+}
+
+.gobackicon {
+  font-size: 20px;
+  vertical-align: -3.5px;
+}
+
+/* header */
+
+header {
+  position: fixed;
+  width: 100%;
+  padding: 30px 100px;
+  z-index: 10;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+
+header .logo {
+  color: white;
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+header .logo span {
+  font-weight: 800;
+}
+
+header.sticky {
+  background: white;
+  padding: 15px 100px;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+header.sticky .logo {
+  color: #02182b;
+}
+
+/* home */
+
+.home {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(5, 10, 30, 0.5), rgba(5, 10, 30, 0.5)),
+    url(../images/landing/subscribe.jpg);
+  background-size: cover;
+}
+
+.home .content {
+  margin-top: 5%;
+  max-width: 900px;
+  text-align: center;
+}
+
+.home .content h1 {
+  font-size: 59px;
+  font-weight: 700;
+  color: white;
+}
+
+.home .content p {
+  color: white;
+  text-align: center;
+}
+
+.homebutton {
+  background-color: transparent;
+  border: 2px solid #d7263d;
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.homebutton:hover {
+  color: white;
+  background-color: #d7263d;
+  box-shadow: 0px 0px 10px 2px #d7263d;
+  border-radius: 10px;
+  letter-spacing: 6px;
+}

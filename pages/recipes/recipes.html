@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FUELmyKITCHEN - recipes</title>
+    <!--css-->
+    <link rel="stylesheet" href="../../css/recipes/recipes.css" />
+    <!--js-->
+    <script src="../../js/scripts.js"></script>
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    />
+    <!--favicon-->
+    <link
+      rel="shortcut icon"
+      href="../../images/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <!--iconify icons-->
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      <a href="../../index.html" class="logo">
+        <iconify-icon class="logoicon" icon="icon-park-outline:chef-hat">
+        </iconify-icon>
+        FUEL<span>my</span>KITCHEN
+      </a>
+    </header>
+    <!--home-->
+    <section class="home" id="home">
+      <div class="content">
+        <h1>
+          Welcome, <br />
+          to where delicious becomes a lifestyle!
+        </h1>
+        <p>All you need, wherever you are!</p>
+        <a href="../../index.html" class="homebutton"
+          >&LeftArrow; HOME
+          <iconify-icon
+            class="gobackicon"
+            icon="material-symbols:home-outline-rounded"
+            style="color: white"
+          >
+          </iconify-icon>
+        </a>
+        <a href="#recipes" class="homebutton"
+          >LEARN MORE
+          <iconify-icon
+            class="homebuttonicon"
+            icon="material-symbols:expand-more-rounded"
+            style="color: white"
+          >
+          </iconify-icon>
+        </a>
+      </div>
+    </section>
+    <!--recipes-->
+    <section id="recipes">
+      <div class="recipes">
+        <div class="recipestitle">
+          <h2>
+            <iconify-icon
+              class="recipebookicon"
+              icon="material-symbols:menu-book-outline-rounded"
+              style="color: #d7263d"
+            >
+            </iconify-icon>
+            Enjoy our recipes index!
+          </h2>
+          <p>
+            Look up your favorite recipe using our unique "FINDmyRECIPE" search
+            engine!
+          </p>
+        </div>
+        <div class="searchbar">
+          <input
+            class="searchinput"
+            type="text"
+            name=""
+            id="searchinput"
+            onkeyup="search()"
+            placeholder="Search..."
+          />
+          <button class="searchbutton">
+            <iconify-icon class="searchicon" icon="material-symbols:search">
+            </iconify-icon>
+          </button>
+        </div>
+        <div class="recipeslegend">
+          <p>
+            Vegan
+            <iconify-icon
+              class="legendicons"
+              icon="iconoir:vegan-rounded"
+              style="color: #2b8"
+            >
+            </iconify-icon>
+            - Spicy
+            <iconify-icon
+              class="legendicons"
+              icon="tabler:pepper"
+              style="color: #e32227"
+            >
+            </iconify-icon>
+            - Gluten Free
+            <iconify-icon
+              class="legendicons"
+              icon="mdi:gluten-free"
+              style="color: #dc6"
+            >
+            </iconify-icon>
+            - Vegetarian
+            <iconify-icon
+              class="legendicons"
+              icon="iconoir:vegan-squared"
+              style="color: #2a0"
+            >
+            </iconify-icon>
+            - Dairy Free
+            <iconify-icon
+              class="legendicons"
+              icon="mdi:dairy-free"
+              style="color: #02182b"
+            >
+            </iconify-icon>
+          </p>
+        </div>
+        <div class="content" id="content">
+          <div class="box">
+            <div class="imagebox">
+              <img
+                src="../../images/recipes/spinach_tortellini_soup/spinach_tortellini_soup_cropped.jpg"
+                alt="spinach_tortellini_soup"
+              />
+            </div>
+            <div class="boxtext">
+              <h4>
+                SPINACH TORTELLINI SOUP
+                <tag id="hiddentag">soup</tag>
+                <tag id="hiddentag">vegetarian</tag>
+                <iconify-icon
+                  class="legendicons"
+                  icon="iconoir:vegan-squared"
+                  style="color: #2a0"
+                >
+                </iconify-icon>
+              </h4>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="ic:round-access-time"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                35 mins.
+              </p>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="fluent-mdl2:calories"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                101 kcal.
+              </p>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="game-icons:hot-meal"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                Soup
+              </p>
+              <a
+                href="../../pages/recipes/spinach_tortellini_soup.html"
+                class="recipesbutton"
+                >READ MORE
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imagebox">
+              <img
+                src="../../images/recipes/cranberry_cake/cranberry_cake_cropped.jpg"
+                alt="cranberry_cake"
+              />
+            </div>
+            <div class="boxtext">
+              <h4>CRANBERRY CAKE<tag id="hiddentag">dessert</tag></h4>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="ic:round-access-time"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                1 hr.
+              </p>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="fluent-mdl2:calories"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                433 kcal.
+              </p>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="game-icons:hot-meal"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                Dessert
+              </p>
+              <a
+                href="../../pages/recipes/cranberry_cake.html"
+                class="recipesbutton"
+                >READ MORE
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imagebox">
+              <img
+                src="../../images/recipes/grilled_beef_kabobs/grilled_beef_kabobs_cropped.jpg"
+                alt="grilled_beef_kabobs"
+              />
+            </div>
+            <div class="boxtext">
+              <h4>
+                GRILLED BEEF KABOBS<tag id="hiddentag">main</tag>
+                <tag id="hiddentag">main dish</tag>
+                <tag id="hiddentag">spicy</tag>
+                <tag id="hiddentag">gluten</tag>
+                <tag id="hiddentag">gluten free</tag>
+                <tag id="hiddentag">dairy</tag>
+                <tag id="hiddentag">dairy free</tag>
+                <iconify-icon
+                  class="legendicons"
+                  icon="tabler:pepper"
+                  style="color: #e32227"
+                >
+                </iconify-icon>
+                <iconify-icon
+                  class="legendicons"
+                  icon="mdi:gluten-free"
+                  style="color: #dc6"
+                >
+                </iconify-icon>
+                <iconify-icon
+                  class="legendicons"
+                  icon="mdi:dairy-free"
+                  style="color: #02182b"
+                >
+                </iconify-icon>
+              </h4>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="ic:round-access-time"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                2 hrs.
+              </p>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="fluent-mdl2:calories"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                423 kcal.
+              </p>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="game-icons:hot-meal"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                Main Dish
+              </p>
+              <a
+                href="../../pages/recipes/grilled_beef_kabobs.html"
+                class="recipesbutton"
+                >READ MORE
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imagebox">
+              <img
+                src="../../images/recipes/baked_macaroni_and_cheese/baked_macaroni_and_cheese.jpg"
+                alt="baked_macaroni_and_cheese"
+              />
+            </div>
+            <div class="boxtext">
+              <h4>
+                BAKED MACARONI & CHEESE<tag id="hiddentag">side</tag>
+                <tag id="hiddentag">side dish</tag>
+              </h4>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="ic:round-access-time"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                45 mins.
+              </p>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="fluent-mdl2:calories"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                598 kcal.
+              </p>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="game-icons:hot-meal"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                Side Dish
+              </p>
+              <a
+                href="../../pages/recipes/baked_macaroni_and_cheese.html"
+                class="recipesbutton"
+                >READ MORE
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imagebox">
+              <img
+                src="../../images/recipes/zucchini_orzo_soup/zucchini_orzo_soup_cropped.jpg"
+                alt="zucchini_orzo_soup"
+              />
+            </div>
+            <div class="boxtext">
+              <h4>
+                ZUCCHINI ORZO SOUP
+                <tag id="hiddentag">soup</tag>
+                <tag id="hiddentag">vegan</tag>
+                <tag id="hiddentag">dairy</tag>
+                <tag id="hiddentag">dairy free</tag>
+                <iconify-icon
+                  class="legendicons"
+                  icon="iconoir:vegan-rounded"
+                  style="color: #2b8"
+                >
+                </iconify-icon>
+                <iconify-icon
+                  class="legendicons"
+                  icon="mdi:dairy-free"
+                  style="color: #02182b"
+                >
+                </iconify-icon>
+              </h4>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="ic:round-access-time"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                55 mins.
+              </p>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="fluent-mdl2:calories"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                178 kcal.
+              </p>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="game-icons:hot-meal"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                Soup
+              </p>
+              <a
+                href="../../pages/recipes/zucchini_orzo_soup.html"
+                class="recipesbutton"
+                >READ MORE
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imagebox">
+              <img
+                src="../../images/recipes/smashed_sweet_potatoes/smashed_sweet_potatoes.jpg"
+                alt="smashed_sweet_potatoes"
+              />
+            </div>
+            <div class="boxtext">
+              <h4>
+                SMASHED SWEET POTATOES
+                <tag id="hiddentag">side</tag>
+                <tag id="hiddentag">side dish</tag>
+                <tag id="hiddentag">gluten</tag>
+                <tag id="hiddentag">gluten free</tag>
+                <tag id="hiddentag">vegetarian</tag>
+                <iconify-icon
+                  class="legendicons"
+                  icon="mdi:gluten-free"
+                  style="color: #dc6"
+                >
+                </iconify-icon>
+                <iconify-icon
+                  class="legendicons"
+                  icon="iconoir:vegan-squared"
+                  style="color: #2a0"
+                >
+                </iconify-icon>
+              </h4>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="ic:round-access-time"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                55 mins.
+              </p>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="fluent-mdl2:calories"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                222 kcal.
+              </p>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="game-icons:hot-meal"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                Side Dish
+              </p>
+              <a
+                href="../../pages/recipes/smashed_sweet_potatoes.html"
+                class="recipesbutton"
+                >READ MORE
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer>
+      <div class="copyright">
+        <p>
+          &copy; 2022 made by
+          <a href="https://www.linkedin.com/in/wadihelkurdi">
+            <span>WADIH</span>
+          </a>
+          | All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

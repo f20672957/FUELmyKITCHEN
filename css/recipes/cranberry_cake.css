@@ -1,0 +1,572 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* root */
+
+section {
+  padding: 5%;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #02182b;
+}
+
+h2 {
+  margin-top: 4%;
+  padding-bottom: 1%;
+  font-size: 35px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #02182b;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #02182b;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #02182b;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: #02182b;
+  text-align: justify;
+}
+
+span {
+  color: #d7263d;
+  font-weight: 300;
+}
+
+li {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: #02182b;
+  text-align: justify;
+}
+
+/* icons */
+
+.logoicon {
+  font-size: 25px;
+  vertical-align: -1.5px;
+}
+
+.boxicons {
+  vertical-align: -1px;
+}
+
+.gobackicon {
+  font-size: 20px;
+  vertical-align: -3.5px;
+}
+
+.homebuttonicon {
+  font-size: 20px;
+  vertical-align: -3.5px;
+}
+
+.faqicon {
+  font-size: 20px;
+  vertical-align: -3.5px;
+}
+
+.dividericon {
+  font-size: 50px;
+  vertical-align: -10px;
+  color: #d7263d;
+}
+
+/* header */
+
+header {
+  position: fixed;
+  width: 100%;
+  padding: 30px 100px;
+  z-index: 10;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+
+header .logo {
+  color: white;
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+header .logo span {
+  font-weight: 800;
+}
+
+header.sticky {
+  background: white;
+  padding: 15px 100px;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+header.sticky .logo {
+  color: #02182b;
+}
+
+.quicklinks {
+  color: #d7263d;
+}
+
+.quicklinks a {
+  color: white;
+  font-weight: 300;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.quicklinks a:hover {
+  letter-spacing: 1.2px;
+}
+
+header.sticky .quicklinks a {
+  color: #02182b;
+}
+
+/* home */
+
+.home {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(5, 10, 30, 0.5), rgba(5, 10, 30, 0.5)),
+    url(../../images/recipes/cranberry_cake/cranberry_cake_cropped.jpg);
+  background-position: center;
+}
+
+.home .content {
+  margin-top: 5%;
+  max-width: 900px;
+  text-align: center;
+}
+
+.home .content h1 {
+  color: white;
+}
+
+.home .content .recipeinfo p {
+  line-height: 60px;
+  display: inline-block;
+  font-weight: 300;
+  color: white;
+}
+
+.home .content .recipeinfo .boxicons {
+  padding: 0px 5px 0px 5px;
+}
+
+.homebutton {
+  background-color: transparent;
+  border: 2px solid #d7263d;
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.homebutton:hover {
+  color: white;
+  background-color: #d7263d;
+  box-shadow: 0px 0px 10px 2px #d7263d;
+  border-radius: 10px;
+  letter-spacing: 6px;
+}
+
+/* introduction */
+
+.introduction .row {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.introduction .row .column {
+  position: relative;
+  width: 48%;
+}
+
+.introduction .row .column h3 {
+  border-bottom: 2px solid #d7263d;
+  margin-right: 203px;
+}
+
+.introduction .row .column li {
+  list-style-type: disc;
+  padding-top: 10px;
+}
+
+.introduction .row .column .imagebox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.introduction .row .column .imagebox img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: rgba(215, 38, 61, 0.5) 5px 5px, rgba(215, 38, 61, 0.4) 10px 10px,
+    rgba(215, 38, 61, 0.3) 15px 15px, rgba(215, 38, 61, 0.2) 20px 20px,
+    rgba(215, 38, 61, 0.1) 25px 25px;
+}
+
+/* divider */
+
+#divider {
+  margin-top: 4%;
+}
+
+.divider h3 {
+  text-align: center;
+  position: relative;
+}
+
+.divider h3:before {
+  content: "";
+  display: block;
+  width: 500px;
+  height: 2px;
+  background: #02182b;
+  left: 0;
+  top: 50%;
+  position: absolute;
+  z-index: -2;
+}
+
+.divider h3:after {
+  content: "";
+  display: block;
+  width: 500px;
+  height: 2px;
+  background: #02182b;
+  right: 0;
+  top: 50%;
+  position: absolute;
+  z-index: -2;
+}
+
+/* ingredients */
+
+.ingredients .row {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ingredients .row .column {
+  position: relative;
+  width: 48%;
+}
+
+.ingredients .row .column p {
+  text-align: justify;
+}
+
+.ingredients .row .column ul {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.ingredients .row .column ul h3 {
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.ingredients .row .column ul p {
+  text-align: center;
+  padding-bottom: 5px;
+  font-size: 15px;
+  border-bottom: 2px solid #d7263d;
+}
+
+.ingredients .row .column ul li {
+  margin-left: 30px;
+  list-style-type: disc;
+  padding-top: 10px;
+  padding-bottom: 13px;
+}
+
+.ingredients .row2 {
+  padding-bottom: 2.2%;
+}
+
+.ingredients img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(215, 38, 61, 0.5) 0px 5px, rgba(215, 38, 61, 0.4) 0px 10px,
+    rgba(215, 38, 61, 0.3) 0px 15px, rgba(215, 38, 61, 0.2) 0px 20px,
+    rgba(215, 38, 61, 0.1) 0px 25px;
+}
+
+/* instructions */
+
+.instructions .row {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2.2%;
+}
+
+.instructions .row .column {
+  position: relative;
+  width: 48%;
+}
+
+.instructions .row .column .imagebox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.instructions .row .column .imagebox img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 10px;
+  box-shadow: rgba(215, 38, 61, 0.5) -5px 5px, rgba(215, 38, 61, 0.4) -10px 10px,
+    rgba(215, 38, 61, 0.3) -15px 15px, rgba(215, 38, 61, 0.2) -20px 20px,
+    rgba(215, 38, 61, 0.1) -25px 25px;
+}
+
+.instructions .row2 {
+  padding-bottom: 2.2%;
+}
+
+.instructions .row2 p {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.instructions .row2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border-radius: 10px;
+  box-shadow: rgba(215, 38, 61, 0.5) 0px 5px, rgba(215, 38, 61, 0.4) 0px 10px,
+    rgba(215, 38, 61, 0.3) 0px 15px, rgba(215, 38, 61, 0.2) 0px 20px,
+    rgba(215, 38, 61, 0.1) 0px 25px;
+}
+
+/* tips */
+
+.tips .row {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2.2%;
+}
+
+.tips .row .column {
+  position: relative;
+  width: 48%;
+}
+
+.tips .row .column ul {
+  text-align: justify;
+}
+
+.tips .row .column ul li {
+  list-style-type: disc;
+}
+
+.tips .row .column .imagebox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.tips .row .column .imagebox img {
+  position: absolute;
+  width: 100%;
+  height: 100.005%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: rgba(215, 38, 61, 0.5) 5px 5px, rgba(215, 38, 61, 0.4) 10px 10px,
+    rgba(215, 38, 61, 0.3) 15px 15px, rgba(215, 38, 61, 0.2) 20px 20px,
+    rgba(215, 38, 61, 0.1) 25px 25px;
+}
+
+/* subsandadds */
+
+.subsandadds .row {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subsandadds .row .column {
+  position: relative;
+  width: 48%;
+}
+
+.subsandadds .row .column ul {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.subsandadds .row .column ul h3 {
+  padding-bottom: 5px;
+  text-align: center;
+  border-bottom: 2px solid #d7263d;
+}
+
+.subsandadds .row .column ul li {
+  margin-left: 30px;
+  list-style-type: disc;
+  padding-top: 10px;
+}
+
+/* faq */
+
+.faq .row {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2.1%;
+}
+
+.faq .row .column {
+  position: relative;
+  width: 48%;
+}
+
+.faq .row .column .imagebox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-shadow: rgba(215, 38, 61, 0.5) -5px 5px, rgba(215, 38, 61, 0.4) -10px 10px,
+    rgba(215, 38, 61, 0.3) -15px 15px, rgba(215, 38, 61, 0.2) -20px 20px,
+    rgba(215, 38, 61, 0.1) -25px 25px;
+  border-radius: 10px;
+}
+
+.faq .row .column .imagebox img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.faq .row .column h3 {
+  text-align: center;
+  border-bottom: 2px solid #d7263d;
+}
+
+.faq .row .column p {
+  padding-top: 10px;
+}
+
+/* nutritionalfacts */
+
+.nutritionalfacts {
+  background-image: linear-gradient(rgba(5, 10, 30, 0.5), rgba(5, 10, 30, 0.5)),
+    url(../../images/recipes/cranberry_cake/cranberry_cake_cropped.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 50px;
+  width: 100%;
+  height: 100%;
+}
+.nutritionalfacts .nutritionbox {
+  background-color: white;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.nutritionalfacts .nutritionbox h3 {
+  text-align: center;
+  border-bottom: 2px solid #d7263d;
+  margin-left: 30.5%;
+  margin-right: 30.5%;
+}
+
+.nutritionalfacts .nutritionbox li {
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 5px;
+}
+
+.nutritionalfacts .nutritionbox p {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 10px;
+  font-style: italic;
+}
+
+/* footer */
+
+.copyright {
+  padding: 10px;
+}
+
+.copyright p {
+  text-align: center;
+}
+
+.copyright p span {
+  font-weight: 400;
+  transition: 0.5s;
+}
+
+.copyright p span:hover {
+  letter-spacing: 2px;
+}

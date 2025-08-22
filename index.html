@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FUELmyKITCHEN - food made simple</title>
+    <!--css-->
+    <link rel="stylesheet" href="../fuelmykitchen/css/style.css" />
+    <!--js-->
+    <script src="../fuelmykitchen/js/scripts.js"></script>
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    />
+    <!--favicon-->
+    <link
+      rel="shortcut icon"
+      href="../fuelmykitchen/images/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <!--iconify icons-->
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+  </head>
+  <body>
+    <!--header-->
+    <header>
+      <a href="../fuelmykitchen/index.html" class="logo">
+        <iconify-icon class="logoicon" icon="icon-park-outline:chef-hat">
+        </iconify-icon>
+        FUEL<span>my</span>KITCHEN
+      </a>
+      <ul class="navigationbar">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#recipes">RECIPES</a></li>
+        <li><a href="#subscribe">SUBSCRIBE </a></li>
+      </ul>
+    </header>
+    <!--home-->
+    <section class="home" id="home">
+      <div class="content">
+        <h1>
+          The art of food... <br />
+          ...made simple!
+        </h1>
+        <p>A haven for every food enthusiast!</p>
+        <a href="#about" class="homebutton"
+          >EXPLORE
+          <iconify-icon
+            class="homebuttonicon"
+            icon="icons8:adventures"
+            style="color: white"
+          >
+          </iconify-icon>
+        </a>
+      </div>
+    </section>
+    <!--about-->
+    <section id="about">
+      <div class="about">
+        <h2>
+          About us!
+          <iconify-icon
+            class="aboutusicon"
+            icon="mdi:about-circle-outline"
+            style="color: #d7263d"
+          >
+          </iconify-icon>
+        </h2>
+        <div class="row">
+          <div class="column">
+            <p>
+              Greetings and welcome to <span>FUELmyKITCHEN</span>&#8482;!
+              <br /><br />
+              My name is <span>Wadih</span> and I am a computer science student,
+              majoring at AOU, presenting to you my final year project. My
+              journey at AOU has been full of valuable experience shaping me
+              into the programmer/computer-whizz I am today. Even though this
+              would be the last step I take towards my major at AOU and my
+              ultimate goal so soon to be fulfilled, I find myself enormously
+              grateful for all the memories I made along this journey. All the
+              way since my first year at AOU, anxiously walking onto my first
+              class, to when I turn in the last line of code for my project. The
+              journey has been incredibly sweet. With all the programming and
+              research skills I've gained while making it,
+              <span>FUELmyKITCHEN</span>&#8482; will serve as the portal that
+              will initiate my career in the computer industry. <br /><br />
+              In brief, <span>FUELmyKITCHEN</span>&#8482; is a prototype web
+              application designed to address problems that could arise in a
+              person's kitchen. It consists of two main pages, the landing page,
+              featuring an option to subscribe to weekly/monthly newsletters,
+              and the recipes page. The recipes page, the core of
+              <span>FUELmyKITCHEN</span>&#8482;, features a search engine
+              nicknamed "FINDmyRECIPE" and an index containing several recipes,
+              each of which has a complete page full of detailed information
+              related to the recipe including instructions, ingredients, a FAQ
+              section, and much more!<br /><br />
+              I sincerely hope you have a pleasant visit, and I eagerly await
+              your feedback! <br />
+              <span id="signature">~ WADIH</span>
+            </p>
+          </div>
+          <div class="column">
+            <div class="imagebox">
+              <img
+                src="../fuelmykitchen/images/landing/about.jpg"
+                alt="professional_chef_cooking"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--divider-->
+    <section id="divider">
+      <div class="divider">
+        <h3>
+          <iconify-icon class="dividericon" icon="icon-park-outline:chef-hat">
+          </iconify-icon>
+        </h3>
+      </div>
+    </section>
+    <!--recipes-->
+    <section id="recipes">
+      <div class="recipes">
+        <div class="recipestitle">
+          <h2>
+            <iconify-icon
+              class="recipebookicon"
+              icon="material-symbols:menu-book-outline-rounded"
+              style="color: #d7263d"
+            >
+            </iconify-icon>
+            Check out our most popular recipes... <br />
+            ...or
+            <a href="../fuelmykitchen/pages/recipes/recipes.html">
+              browse the full index</a
+            >!
+          </h2>
+        </div>
+        <div class="content">
+          <div class="box">
+            <div class="imagebox">
+              <img
+                src="../fuelmykitchen/images/recipes/grilled_beef_kabobs/grilled_beef_kabobs_cropped.jpg"
+                alt="grilled_beef_kabobs"
+              />
+            </div>
+            <div class="boxtext">
+              <h4>
+                GRILLED BEEF KABOBS
+                <iconify-icon
+                  class="legendicons"
+                  id="legendiconstooltip"
+                  icon="mdi:gluten-free"
+                  style="color: #dc6"
+                >
+                </iconify-icon>
+                <iconify-icon
+                  class="legendicons"
+                  icon="mdi:dairy-free"
+                  style="color: #02182b"
+                >
+                </iconify-icon>
+              </h4>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="ic:round-access-time"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                2 hrs.
+              </p>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="fluent-mdl2:calories"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                423 kcal.
+              </p>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="game-icons:hot-meal"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                Main Dish
+              </p>
+              <a
+                href="../fuelmykitchen/pages/recipes/grilled_beef_kabobs.html"
+                class="recipesbutton"
+                >READ MORE
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imagebox">
+              <img
+                src="../fuelmykitchen/images/recipes/baked_macaroni_and_cheese/baked_macaroni_and_cheese.jpg"
+                alt="baked_macaroni_and_cheese"
+              />
+            </div>
+            <div class="boxtext">
+              <h4>BAKED MACARONI & CHEESE</h4>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="ic:round-access-time"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                45 mins.
+              </p>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="fluent-mdl2:calories"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                598 kcal.
+              </p>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="game-icons:hot-meal"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                Side Dish
+              </p>
+              <a
+                href="../fuelmykitchen/pages/recipes/baked_macaroni_and_cheese.html"
+                class="recipesbutton"
+                >READ MORE
+              </a>
+            </div>
+          </div>
+          <div class="box">
+            <div class="imagebox">
+              <img
+                src="../fuelmykitchen/images/recipes/spinach_tortellini_soup/spinach_tortellini_soup_cropped.jpg"
+                alt="spinach_tortellini_soup"
+              />
+            </div>
+            <div class="boxtext">
+              <h4>
+                SPINACH TORTELLINI SOUP
+                <iconify-icon
+                  class="legendicons"
+                  icon="iconoir:vegan-squared"
+                  style="color: #2a0"
+                >
+                </iconify-icon>
+              </h4>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="ic:round-access-time"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                35 mins.
+              </p>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="fluent-mdl2:calories"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                101 kcal.
+              </p>
+              <p>
+                <iconify-icon
+                  class="boxicons"
+                  icon="game-icons:hot-meal"
+                  style="color: #d7263d"
+                >
+                </iconify-icon>
+                Soup
+              </p>
+              <a
+                href="../fuelmykitchen/pages/recipes/spinach_tortellini_soup.html"
+                class="recipesbutton"
+                >READ MORE
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--divider-->
+    <section id="divider">
+      <div class="divider">
+        <h3>
+          <iconify-icon class="dividericon" icon="icon-park-outline:chef-hat">
+          </iconify-icon>
+        </h3>
+      </div>
+    </section>
+    <!--subscribe-->
+    <section id="subscribe">
+      <div class="subscribe">
+        <form action="../fuelmykitchen/php/newsletter.php" method="post">
+          <div class="subscribetitle">
+            <h2>
+              Subscribe to our newsletter!
+              <iconify-icon
+                class="newspapericon"
+                icon="fluent:news-16-regular"
+                style="color: #d7263d"
+              >
+              </iconify-icon>
+            </h2>
+            <p>Make sure you never miss any new recipe additions!</p>
+          </div>
+          <div class="content">
+            <div class="databoxes">
+              <label for="name">
+                NAME
+                <iconify-icon
+                  class="formicons"
+                  icon="icon-park-outline:edit-name"
+                >
+                </iconify-icon>
+              </label>
+              <input
+                name="name"
+                type="text"
+                id="name"
+                required
+                placeholder="e.g. John Doe"
+              />
+            </div>
+            <div class="databoxes">
+              <label for="email"
+                >EMAIL
+                <iconify-icon
+                  class="formicons"
+                  icon="material-symbols:alternate-email"
+                >
+                </iconify-icon>
+              </label>
+              <input
+                name="email"
+                type="text"
+                id="email"
+                required
+                placeholder="e.g. john@example.com"
+              />
+            </div>
+          </div>
+          <div class="action">
+            <input type="submit" value="&#8680; SUBSCRIBE &#8678;" />
+          </div>
+          <div class="contactlink">
+            <p>
+              Want to reach out to us?
+              <a href="../fuelmykitchen/pages/contact.html">
+                <span>Click Here</span></a
+              >
+            </p>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!--footer-->
+    <footer>
+      <div class="copyright">
+        <p>
+          &copy; 2022 made by
+          <a href="https://www.linkedin.com/in/wadihelkurdi">
+            <span>WADIH</span>
+          </a>
+          | All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
